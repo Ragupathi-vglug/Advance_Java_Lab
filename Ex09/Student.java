@@ -1,9 +1,6 @@
 import java.sql.*;
-
 public class Student {
-
     public static void main(String args[]) {
-
         try {
             // Load MySQL JDBC Driver
             Class.forName("com.mysql.cj.jdbc.Driver");

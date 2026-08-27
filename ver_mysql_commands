@@ -1,3 +1,5 @@
 db Compile command : javac -cp ".:lib/mysql-connector.jar" Student.java
 db run command     : java -cp ".:lib/mysql-connector.jar" Student
-update-alternatives --list java
+update-alternatives --config java
+appletviewer Event_Hand.java
+appletviewer SimpleBanner.java

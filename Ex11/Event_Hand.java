@@ -3,11 +3,11 @@ import java.awt.*;
 import java.awt.event.*;
 
 /*
-<applet code="Text" width="1200" height="1200">
+<applet code="Event_Hand" width="1200" height="1200">
 </applet>
 */
 
-public class Text extends Applet implements ActionListener {
+public class Event_Hand extends Applet implements ActionListener {
 
     TextField a, b;
     double sum;

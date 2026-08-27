@@ -1,13 +1,10 @@
 import java.awt.*;
 import java.applet.*;
-
 /*
 <applet code="SimpleBanner" width="700" height="50">
 </applet>
 */
-
 public class SimpleBanner extends Applet implements Runnable {
-
     String msg = " Accept Everything Nothing is Permanent.";
     Thread t = null;
     int state;
@@ -28,7 +25,6 @@ public class SimpleBanner extends Applet implements Runnable {
 
     // Entry point for the thread that runs the banner
     public void run() {
-
         char ch;
 
         // Display banner
@@ -43,12 +39,10 @@ public class SimpleBanner extends Applet implements Runnable {
 
                 if (stopFlag)
                     break;
-
             } catch (InterruptedException e) {
             }
         }
     }
-
     // Pause the banner
     public void stop() {
         stopFlag = true;

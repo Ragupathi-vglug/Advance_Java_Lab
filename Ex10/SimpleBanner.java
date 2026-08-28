@@ -12,8 +12,10 @@ public class SimpleBanner extends Applet implements Runnable {
 
     // Set colors and initialize thread
     public void init() {
+        
         setBackground(Color.blue);
         setForeground(Color.white);
+        setFont(new Font("Dialog", Font.PLAIN, 50));
     }
 
     // Start thread
@@ -51,6 +53,6 @@ public class SimpleBanner extends Applet implements Runnable {
 
     // Display the banner
     public void paint(Graphics g) {
-        g.drawString(msg, 500, 300);
+        g.drawString(msg, 100, 300);
     }
 }

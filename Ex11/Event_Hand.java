@@ -16,6 +16,7 @@ public class Event_Hand extends Applet implements ActionListener {
     public void init() {
 
         Label value1 = new Label("First Number : ", Label.RIGHT);
+        
         Label value2 = new Label("Second Number : ", Label.RIGHT);
 
         a = new TextField(10);

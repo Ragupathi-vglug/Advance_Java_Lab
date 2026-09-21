@@ -1,18 +1,18 @@
-package Ex06;
+package Bank;
 public class Account {
     String name;
     int balance;
 
-    void createAccount(String name, int initialAmount) {
+    public void createAccount(String name, int initialAmount) {
         this.name = name;
         this.balance = initialAmount;
     }
-    int credit(int amount){
+    public int credit(int amount){
         balance+=amount;
         System.out.println("The Amount Credited Successfully");
         return balance;
     }
-    int withdraw(int amount){
+    public int withdraw(int amount){
         if(amount<=balance){
             balance-=amount;
             System.out.println("The Amount Withdrawn Successfully");
@@ -22,7 +22,7 @@ public class Account {
         }
         return balance;
         }
-    void disp_balance(){
+    public void disp_balance(){
         System.out.println("Name :"+name);
         System.out.println("Balance :"+balance);
     }

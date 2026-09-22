@@ -12,16 +12,12 @@ class User{
         s.nextLine();
         ac.createAccount(name, amount);
 
-        // System.out.println("""
-        //         1)Credit
-        //         2)withdraw
-        //         3)Balance
-        //         4)Exit
-        //         """);
-        System.out.println("1)Credit");
-        System.out.println("2)withdraw");
-        System.out.println("3)Balance");
-        System.out.println("4)Exit");
+        System.out.println("""
+                1)Credit
+                2)withdraw
+                3)Balance
+                4)Exit
+                """);
         
         while(true){
         System.out.print("\nEnter What you want to do :");

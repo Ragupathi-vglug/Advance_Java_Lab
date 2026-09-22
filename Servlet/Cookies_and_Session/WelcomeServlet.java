@@ -41,6 +41,4 @@ public class WelcomeServlet extends HttpServlet {
             out.println("<a href='index.html'>Login</a>");
         }
     }
-} {
-    
 }

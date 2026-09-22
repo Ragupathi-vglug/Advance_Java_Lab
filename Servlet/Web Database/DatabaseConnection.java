@@ -14,7 +14,7 @@ public class DatabaseConnection {
             con = DriverManager.getConnection(
                     "jdbc:mysql://localhost:3306/ragu",
                     "root",
-                    "ragu@123");     // Change to your MySQL password
+                    "ragu@123");
 
         } catch (Exception e) {
             e.printStackTrace();

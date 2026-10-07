@@ -7,7 +7,7 @@ class Date_Time{
 
         System.out.println("\t Date and Time" );
 
-        System.out.println("\nThe Current Date,Time and Timezone in a System is : "+dt);
+        System.out.println("\nThe Current Date,Time \n and Timezone in a System is : "+dt);
         System.out.println("The Current Time in Milli Second is :"+dt.getTime());
         
         String months[]={"Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Oct","Sep","Nov","Dec"};

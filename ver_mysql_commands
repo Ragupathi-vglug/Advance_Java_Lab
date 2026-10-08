@@ -3,3 +3,5 @@ db run command     : java -cp ".:lib/mysql-connector.jar" Student
 sudo update-alternatives --config java
 appletviewer Event_Hand.java
 appletviewer SimpleBanner.java
+
+
